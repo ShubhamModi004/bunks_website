@@ -20,7 +20,7 @@ const Instagram = () => {
   return (
     <div className={styles["container"]}>
       <div className={styles["images"]}>
-        <InstaPics src={"/images/insta1.JPG"} value="200px" />
+        <InstaPics src={"/images/insta1.jpg"} value="200px" />
         <InstaPics src={"/images/insta2.JPG"} value="-200px" />
       </div>
       <div className={styles["follow_container"]}>
@@ -32,7 +32,7 @@ const Instagram = () => {
       </div>
       <div className={`${styles["images"]} ${styles["mt2"]}`}>
         <InstaPics src={"/images/insta3.JPG"} value="200px" />
-        <InstaPics src={"/images/insta4.JPG"} value="-200px" />
+        <InstaPics src={"/images/insta4.jpg"} value="-200px" />
       </div>
     </div>
   );
