@@ -1,0 +1,55 @@
+@import "../../../styles/common.scss";
+.navbar {
+  @extend .page_layout;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: $white;
+
+  .company-name {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: $black;
+  }
+}
+
+
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: $black;
+  white-space: nowrap;
+
+  .marquee {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+    padding: 0.5em 0;
+  }
+  
+  .marquee span {
+    color: $white;
+    font-size: 1em;
+  }
+  
+  .marquee span::after {
+    content: " • ";
+    color: $white;
+    padding: 0 10px;
+  }
+  
+  .marquee span:last-child::after {
+    content: "";
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+

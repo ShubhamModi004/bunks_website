@@ -1,0 +1,55 @@
+@import "./colors";
+@import "./sizes";
+
+.page_layout {
+    padding: 10px 26px;
+}
+
+.header {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400 !important;
+    font-size: 60px !important;
+    letter-spacing: 0.5px;
+    color: $black;
+    transform: scaleY(0.7);
+}
+
+.title {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 300 !important;
+    font-size: 60px !important;
+    letter-spacing: 0.75px;
+    color: $black;
+    transform: scaleY(0.65);
+}
+
+.subheader {
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: $black;
+}
+
+.p2 {
+    font-weight: 300 !important;
+    font-size: 18px !important;
+    letter-spacing: 0.75px;
+    color: $black;
+}
+
+.para {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: $black;
+}
+
+.drop {
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,67 @@
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    max-height: 850px;
+    padding: 10px 26px;
+    position: relative;
+
+    .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 150%;
+        background: url('/images/landing_page.JPG') no-repeat center bottom;
+        background-size: cover;
+        z-index: -2;
+    }
+
+    .drop {
+        background-color: rgba($color: #000000, $alpha: 0.2);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+    }
+
+    h1 {
+        font-size: 64px;
+        width: 100%;
+        color: white;
+        white-space: wrap; /* Ensures text doesn't wrap */
+        overflow-wrap: break-word;
+        margin-top: 1rem;
+        font-weight: 700;
+
+        @media screen and (max-width: 27rem) {
+            margin-top: 10vh;
+            font-size: 44px;
+        }
+    }
+
+    p {
+        font-size: clamp(24px, 2.5vw, 12px);
+        width: 100%;
+        color: white;
+        white-space: wrap; /* Ensures text doesn't wrap */
+        overflow-wrap: break-word;
+        margin-top: 5rem;
+        font-size: 32px;
+        width: 25rem;
+        position: relative;
+
+        @media screen and (max-width: 27rem) {
+            position: absolute;
+            bottom: 15%;
+            width: 80vw;
+            font-size: 22px;
+        }
+    }
+}
+
