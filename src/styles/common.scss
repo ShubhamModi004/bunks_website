@@ -6,7 +6,7 @@
 }
 
 .header {
-    font-family: "Bebas Neue", cursive;
+    font-family: "Bebas Neue", '__Bebas_Neue_8c8ae6';
     font-weight: 400 !important;
     font-size: 60px !important;
     letter-spacing: 0.5px;
@@ -15,7 +15,7 @@
 }
 
 .title {
-    font-family: "Bebas Neue", cursive;
+    font-family: "Bebas Neue", '__Bebas_Neue_8c8ae6';
     font-weight: 300 !important;
     font-size: 60px !important;
     letter-spacing: 0.75px;
@@ -24,12 +24,14 @@
 }
 
 .subheader {
+    font-family: "Bebas Neue", '__Bebas_Neue_8c8ae6';
     font-weight: 500 !important;
     font-size: 18px !important;
     color: $black;
 }
 
 .p2 {
+    font-family: 'Inter', sans-serif;
     font-weight: 300 !important;
     font-size: 18px !important;
     letter-spacing: 0.75px;
@@ -37,6 +39,7 @@
 }
 
 .para {
+    font-family: 'Inter', sans-serif;
     font-weight: 400 !important;
     font-size: 14px !important;
     color: $black;

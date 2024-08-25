@@ -16,7 +16,7 @@ const Landing = () => {
         initial={{ opacity: 0, filter: "blur(10px)" }}
         animate={{ opacity: 1, filter: "blur(0px)" }}
         transition={{ duration: 1, delay: 0.5 }}
-        className={styles.heading}
+        className={`${styles.heading}`}
       >
         Welcome to Our Undergarment Brand
       </motion.h1>
